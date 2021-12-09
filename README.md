@@ -4,11 +4,14 @@ how-to
 
 1) MyCommand : console command
 
+```php
 	php bin/command my-command
 	php bin/command my-command espoCRM
+```
 
 2) MyJobWithData : job with data as classes 
 
+```php
 	use Espo\Core\Job\JobSchedulerFactory;
 	use Espo\Core\Job\QueueName;
 
@@ -24,3 +27,4 @@ how-to
 	        'entityId' => '1'
 	    ])
 	    ->schedule();
+```
