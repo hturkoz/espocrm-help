@@ -4,5 +4,8 @@
         "isSystem": false,
         "scheduling": "10 * * * *",
         "jobClassName": "\\Espo\\Modules\\MyModule\\Classes\\Jobs\\MyJobWithData"
+    },
+    "MyJobDataLess": {
+        "jobClassName": "\\Espo\\Modules\\MyModule\\Jobs\\MyJobDataLess"
     }
 } 

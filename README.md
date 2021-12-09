@@ -28,3 +28,16 @@ how-to
 	    ])
 	    ->schedule();
 ```
+
+3) MyJobDataLess : job without data
+
+```php
+        $job = $em->createEntity('Job', [
+                'name' => 'MyJobDataLess',
+                'status' => 'Pending',
+                'serviceName' => 'MyJobDataLess',
+                'methodName' => 'run',
+                'executeTime' => date('Y-m-d H:i:s'),
+    			'queue' => 'q0'
+        ]);
+```
