@@ -1,0 +1,5 @@
+{
+    "MyJobWithData": {
+        "jobClassName": "\\Espo\\Modules\\MyModule\\Jobs\\MyJobWithData"
+    }
+}
