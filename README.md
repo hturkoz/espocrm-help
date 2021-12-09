@@ -21,7 +21,7 @@ how-to
 	$jobSchedulerFactory->create()
 	    ->setClassName($jobClassName) // should implement `Espo\Core\Job\Job` interface
 	    ->setQueue(QueueName::Q0) // optional
-	    ->setGroup('some-group-name') // optional
+	    ->setGroup('some-group-name') // optional string Jobs within a group will run one-by-one.
 	    ->setData([
 	        'entityType' => 'Account',
 	        'entityId' => '1'
