@@ -42,3 +42,5 @@ Helper for : https://github.com/espocrm
     			'queue' => 'q0'
         ]);
 ```
+
+4) MyJobCallService : call service from job
