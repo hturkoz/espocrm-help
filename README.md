@@ -1,7 +1,7 @@
 # espocrm-help
 
 
-Helper for : https://github.com/espocrm 
+It's my helper/tooltips for : https://github.com/espocrm 
 
 1) MyCommand : console command
 
