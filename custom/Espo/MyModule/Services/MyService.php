@@ -33,4 +33,10 @@ class MyService
 
         $this->entityManager->saveEntity($account);  
     }
+
+    public function returnValue(string $value) : string
+    {
+        $this->log->error("MyService::returnValue");
+        return $value;
+    }
 }
