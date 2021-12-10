@@ -1,6 +1,7 @@
 # espocrm-help
 
-how-to
+
+Helper for : https://github.com/espocrm 
 
 1) MyCommand : console command
 

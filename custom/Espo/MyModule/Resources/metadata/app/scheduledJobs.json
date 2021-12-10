@@ -1,11 +1,11 @@
 {
     "MyJobWithData": {
-        "name": "My Job With Data",
-        "isSystem": false,
-        "scheduling": "10 * * * *",
-        "jobClassName": "\\Espo\\Modules\\MyModule\\Classes\\Jobs\\MyJobWithData"
+        "jobClassName": "\\Espo\\Modules\\MyModule\\Jobs\\MyJobWithData"
     },
     "MyJobDataLess": {
         "jobClassName": "\\Espo\\Modules\\MyModule\\Jobs\\MyJobDataLess"
+    },
+    "MyJobCallService": {
+        "jobClassName": "\\Espo\\Modules\\MyModule\\Jobs\\MyJobCallService"
     }
 } 

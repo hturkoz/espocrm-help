@@ -1,6 +1,6 @@
 <?php
 
-namespace Espo\Modules\MyModule\Classes\Jobs;
+namespace Espo\Modules\MyModule\Jobs;
 
 use Espo\Core\ORM\EntityManager;
 use Espo\Core\Job\Job;
