@@ -44,3 +44,7 @@ It's my helper/tooltips for : https://github.com/espocrm
 ```
 
 4) MyJobCallService : call service from job
+
+5) ip behind proxy
+
+change $request->getServerParam('REMOTE_ADDR') to  $request->getServerParam('HTTP_X_REAL_IP')
