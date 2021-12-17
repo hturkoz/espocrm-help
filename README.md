@@ -47,4 +47,4 @@ It's my helper/tooltips for : https://github.com/espocrm
 
 5) ip behind proxy
 
-change $request->getServerParam('REMOTE_ADDR') to  $request->getServerParam('HTTP_X_REAL_IP')
+change $request->getServerParam('REMOTE_ADDR') to  $request->getServerParam('HTTP_X_REAL_IP') in authentification.php
