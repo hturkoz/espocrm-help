@@ -1,0 +1,65 @@
+[
+    {
+        "route": "/GlobalController/action/inamiNumber/:inamiNumber",
+        "method": "get",
+        "params": {
+            "controller": "GlobalController",
+            "action": "inamiNumber",
+            "inamiNumber": ":inamiNumber"
+        }
+    },
+    {
+        "route": "/GlobalController/action/ibanNumber/:ibanNumber",
+        "method": "get",
+        "params": {
+            "controller": "GlobalController",
+            "action": "ibanNumber",
+            "ibanNumber": ":IbanNumber"
+        }
+    },
+    {
+        "route": "/GlobalController/action/ciscoExecute/:phoneNumber",
+        "method": "post",
+        "params": {
+            "controller": "GlobalController",
+            "action": "ciscoExecute",
+            "phoneNumber": ":phoneNumber"
+        }
+    },
+    {
+        "route": "/Meeting/action/carePlan/:id",
+        "method": "get",
+        "params": {
+            "controller": "Meeting",
+            "action": "carePlan",
+            "id": ":id"
+        }
+    },
+    {
+        "route": "/Meeting/action/printRegister/:id",
+        "method": "get",
+        "params": {
+            "controller": "Meeting",
+            "action": "printRegister",
+            "id": ":id"
+        }
+    },
+    {
+        "route": "/HelloWorld/:name",
+        "method": "post",
+        "params": {
+            "controller": "MyController",
+            "action": "helloWorld",
+            "name": ":name"
+        }
+    },
+    {
+        "route": "/TestNoAuth",
+        "method": "get",
+        "params": {
+            "controller": "Test",
+            "action": "test"
+        },
+        "noAuth": true
+    }
+]
