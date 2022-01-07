@@ -1,0 +1,5 @@
+{
+	"primaryFilterClassNameMap": {
+		"actual": "Espo\\Modules\\MyModule\\Classes\\Select\\Patient\\PrimaryFilters\\Actual"
+	}
+}
