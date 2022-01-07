@@ -1,0 +1,12 @@
+{
+    "functionList": [
+        "__APPEND__",
+        {
+            "name": "util\\sleep",
+            "insertText": "util\\sleep(SECONDS)"
+        }
+    ],
+    "functionClassNameMap": {
+        "util\\sleep": "Espo\\Modules\\MyModule\\Core\\Formula\\Functions\\UtilGroup\\SleepType"
+    }
+}
