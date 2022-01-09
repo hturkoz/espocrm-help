@@ -1,0 +1,35 @@
+{
+    "fields": {
+        "parent": {
+            "entityList": [
+                "Patient",
+                "Institution"
+            ]
+        },
+        "patient": {
+            "type": "link"
+        },
+        "sugarId": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
+        },
+        "contacts": {
+            "view": "custom:views/call/fields/contacts"
+        },
+        "leads": {
+            "view": "custom:views/call/fields/leads"
+        }
+    },
+    "links": {
+        "patient": {
+            "type": "belongsTo",
+            "foreign": "callsPrimary",
+            "entity": "Patient",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}
