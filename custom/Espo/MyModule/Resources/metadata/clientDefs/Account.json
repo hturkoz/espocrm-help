@@ -3,5 +3,13 @@
 		{
 			"name":"actual"
 		}
-	]
+	],
+	"relationshipPanels": {
+        "accountMContacts": {
+            "createDisabled": true,
+            "selectDisabled": true,
+            "viewDisabled": true,
+            "unlinkDisabled": true
+        }
+    },
 }
