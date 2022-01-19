@@ -1,4 +1,4 @@
-define('custom:views/call/fields/leads', 'crm:views/call/fields/leads', function (Dep) {
+define('my-module:views/call/fields/leads', 'crm:views/call/fields/leads', function (Dep) {
 
     return Dep.extend({
 

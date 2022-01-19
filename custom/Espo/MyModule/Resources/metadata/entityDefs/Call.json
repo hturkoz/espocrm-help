@@ -17,10 +17,10 @@
             "isCustom": true
         },
         "contacts": {
-            "view": "custom:views/call/fields/contacts"
+            "view": "my-module:views/call/fields/contacts"
         },
         "leads": {
-            "view": "custom:views/call/fields/leads"
+            "view": "my-module:views/call/fields/leads"
         }
     },
     "links": {

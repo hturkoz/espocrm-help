@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "contacts": {
+            "view": "my-module:views/meeting/fields/contacts"
+        },
+        "leads": {
+            "view": "my-module:views/meeting/fields/leads"
+        }
+    }
+}
